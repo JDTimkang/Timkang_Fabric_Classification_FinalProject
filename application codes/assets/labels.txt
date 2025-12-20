@@ -1,0 +1,10 @@
+0 Linen
+1 Velvet
+2 Canvas
+3 Wool
+4 Denim
+5 Leather
+6 Lace
+7 Silk
+8 Chiffon
+9 Damask
