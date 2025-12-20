@@ -1,0 +1,44 @@
+name: jersey_identifier
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core UI package
+  cupertino_icons: ^1.0.2
+
+  # Flutter TFLite package (TensorFlow Lite runtime)
+  # Use a recent version that supports modern Android Gradle namespace requirements.
+  tflite_flutter: ^0.12.1
+
+  # Other project dependencies
+  image_picker: ^1.0.7
+  image: ^3.3.0
+  camera: ^0.11.0+2
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.69.0
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+
+  # Temporarily comment out conflicting packages
+  # jersey_identifier: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/model_unquant.tflite
+    - assets/labels.txt
+    - assets/images/
